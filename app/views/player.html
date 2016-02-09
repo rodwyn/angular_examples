@@ -1,0 +1,29 @@
+<div class="col-xs-12 col-md-4 " >
+  <div class="panel panel b-a">
+    <div class="panel-heading no-border bg-primary header-blue">
+      <span class="text-lt">{{playerData.name}}</span>
+    </div>
+    <img src="{{playerData.image}}" class="img-responsive">
+    <div class="text-u-c h3 m-b-sm m-t-sm m-l-sm   ">{{playerData.team}}</div>
+
+    <ul class="list-group no-radius">
+      <li class="list-group-item">
+        <span class="label label-success pull-right ">{{playerData.age}}</span>
+        Edad
+      </li>
+      <li class="list-group-item">
+        <span class="label label-info pull-right ">{{playerData.position}}</span>
+        Posición
+      </li>
+      <li class="list-group-item">
+        <span class="label label-warning pull-right ">{{playerData.goals}}</span>
+        Goles
+      </li>
+    </ul>
+  </div>
+</div>
+<style>
+  .img-responsive{
+    min-height: 268.156px;
+  }
+</style>

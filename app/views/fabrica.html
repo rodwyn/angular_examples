@@ -1,0 +1,19 @@
+<h2>Compartir metodos entre controladores utilizando fabricas</h2>
+<hr>
+<span class="lead text-info">Controlador Uno</span>
+<div ng-controller="ControladorUno">
+  <input type="text" size="50" ng-model="nuevoMensaje">
+  <button class="btn btn-success" ng-click="nuevo()">Guardar</button>
+  <h3 class="text-info">{{dato.mensaje}}</h3>
+</div>
+<hr>
+<span class="lead text-info">Controlador Dos</span>
+<div ng-controller="ControladorDos">
+  <input type="text" size="50" ng-model="nuevoMensaje">
+  <button class="btn btn-success" ng-click="nuevo()">Guardar</button>
+  <h3 class="text-warning">{{dato.mensaje}}</h3>
+</div>
+<hr>
+<div ng-controller="ControladorTres">
+  <button class="btn btn-primary" ng-click="resetear()">Mensaje Inicial</button>
+</div>
